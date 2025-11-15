@@ -78,11 +78,11 @@ export function FoodItem({ name, price, image }: FoodItemProps) {
           src={image}
           alt={name}
           className="w-full h-full object-cover"
-          onError={(e) => {
-            // Fallback if image fails to load
-            (e.target as HTMLImageElement).src =
-              "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23f3f4f6'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='24'%3E🍽️%3C/text%3E%3C/svg%3E";
-          }}
+          //   onError={(e) => {
+          //     // Fallback if image fails to load
+          //     (e.target as HTMLImageElement).src =
+          //       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23f3f4f6'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='24'%3E🍽️%3C/text%3E%3C/svg%3E";
+          //   }}
         />
       </div>
 
