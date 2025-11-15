@@ -3,9 +3,9 @@ import { Soup } from "lucide-react";
 
 export default function Navbar() {
   return (
-    <nav className="flex p-4 justify-between border-b shadow-md">
+    <nav className="flex p-2 px-6 justify-between border-b shadow-md">
       <div className="flex items-center gap-2">
-        <h3>Uncle's Kitchen</h3>
+        <h4>Uncle's Kitchen</h4>
         <Soup className="text-primary" />
       </div>
       <CartDrawer />

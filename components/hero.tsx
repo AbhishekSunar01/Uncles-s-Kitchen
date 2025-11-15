@@ -18,10 +18,10 @@ export function Hero() {
           duration: 0.5,
           ease: [0.4, 0.0, 0.2, 1],
         }}
-        className="text-2xl md:text-4xl lg:text-5xl font-bold text-neutral-700 max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
+        className="text-xl md:text-4xl lg:text-5xl font-bold text-neutral-700 max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
       >
-        Order from our curated menu of authentic dishes{" "}
-        <Highlight className="text-black dark:text-white">
+        Order from our curated menu of authentic dishes <br />
+        <Highlight className="text-black dark:text-white text-xl">
           Delicious Food, Delivered Fresh
         </Highlight>
       </motion.h1>
