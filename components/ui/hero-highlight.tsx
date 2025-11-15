@@ -12,8 +12,8 @@ export const HeroHighlight = ({
   className?: string;
   containerClassName?: string;
 }) => {
-  let mouseX = useMotionValue(0);
-  let mouseY = useMotionValue(0);
+  const mouseX = useMotionValue(0);
+  const mouseY = useMotionValue(0);
 
   // Light-mode only SVG patterns
   const dotPatternDefault = `url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='16' height='16' fill='none'%3E%3Ccircle fill='%23d4d4d4' cx='10' cy='10' r='2.5'%3E%3C/circle%3E%3C/svg%3E")`;

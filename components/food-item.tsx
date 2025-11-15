@@ -59,7 +59,7 @@ interface FoodItemProps {
   image: string;
 }
 
-export function FoodItem({ id, name, price, image }: FoodItemProps) {
+export function FoodItem({ name, price, image }: FoodItemProps) {
   //   const { addToCart } = useCart();
 
   //   const handleAddToCart = () => {

@@ -78,7 +78,7 @@ export function Menu() {
               ? data.price
               : parseFloat(data.price) || 0,
           image: data.image || "",
-          category: data.category || "Uncategorized",
+          category: data.category || "Fast Foods",
           imageType: data.imageType,
           createdAt: data.createdAt,
         });
@@ -131,7 +131,7 @@ export function Menu() {
       className="w-full"
       defaultValue={categories[0]}
     >
-      {categories.map((category, index) => {
+      {categories.map((category) => {
         const categoryItems = getItemsByCategory(category);
 
         return (
